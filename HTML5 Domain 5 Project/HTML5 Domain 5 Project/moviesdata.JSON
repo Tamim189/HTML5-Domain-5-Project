@@ -1,142 +1,273 @@
 [
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "A.k.a. Cassius Clay",
+      "year": 1970,
+      "cast": [
+        "Muhammad Ali"
+      ],
+      "genres": [
+        "Documentary",
+        "Sports"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Adam at Six A.M.",
+      "year": 1970,
+      "cast": [
+        "Michael Douglas",
+        "Lee Purcell",
+        "Joe Don Baker",
+        "Louise Latham"
+      ],
+      "genres": [
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Adam's Woman",
+      "year": 1970,
+      "cast": [
+        "Beau Bridges",
+        "Jane Merrow",
+        "John Mills",
+        "James Booth"
+      ],
+      "genres": [
+        "Historical",
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Adventurers",
+      "year": 1970,
+      "cast": [
+        "Bekim Fehmiu",
+        "Candice Bergen",
+        "Charles Aznavour",
+        "Olivia de Havilland"
+      ],
+      "genres": [
+        "Drama",
+        "Adventure"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Airport",
+      "year": 1970,
+      "cast": [
+        "Burt Lancaster",
+        "Dean Martin",
+        "Jean Seberg",
+        "Jacqueline Bisset",
+        "Maureen Stapleton",
+        "Van Heflin",
+        "George Kennedy",
+        "Helen Hayes",
+        "Lloyd Nolan",
+        "Dana Wynter",
+        "Barbara Hale"
+      ],
+      "genres": [
+        "Disaster",
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Alex in Wonderland",
+      "year": 1970,
+      "cast": [
+        "Donald Sutherland",
+        "Ellen Burstyn",
+        "Federico Fellini"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Angel Levine",
+      "year": 1970,
+      "cast": [
+        "Zero Mostel",
+        "Harry Belafonte",
+        "Ida Kamińska"
+      ],
+      "genres": [
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Angel Unchained",
+      "year": 1970,
+      "cast": [
+        "Larry Bishop",
+        "Tyne Daly",
+        "Aldo Ray"
+      ],
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Aristocats",
+      "year": 1970,
+      "cast": [
+        "Phil Harris",
+        "Eva Gabor",
+        "Gary Dubin"
+      ],
+      "genres": [
+        "Animated",
+        "Comedy",
+        "Musical",
+        "Romance"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Baby Maker",
+      "year": 1970,
+      "cast": [
+        "Barbara Hershey",
+        "Collin Wilcox Paxton",
+        "Scott Glenn"
+      ],
+      "genres": [
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Ballad of Cable Hogue",
+      "year": 1970,
+      "cast": [
+        "Jason Robards",
+        "Stella Stevens",
+        "David Warner"
+      ],
+      "genres": [
+        "Western",
+        "Comedy"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Barquero",
+      "year": 1970,
+      "cast": [
+        "Lee Van Cleef",
+        "Warren Oates"
+      ],
+      "genres": [
+        "Western",
+        "War"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Beneath the Planet of the Apes",
+      "year": 1970,
+      "cast": [
+        "James Franciscus",
+        "Kim Hunter",
+        "Maurice Evans",
+        "Linda Harrison"
+      ],
+      "genres": [
+        "Science Fiction"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Beyond the Valley of the Dolls",
+      "year": 1970,
+      "cast": [
+        "Cynthia Myers",
+        "Dolly Read",
+        "Edy Williams"
+      ],
+      "genres": [
+        "Erotic",
+        "Comedy",
+        "Drama",
+        "Musical"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Bigfoot",
+      "year": 1970,
+      "cast": [
+        "John Carradine",
+        "Joi Lansing",
+        "John Mitchum"
+      ],
+      "genres": [
+        "Horror",
+        "Independent",
+        "Science Fiction"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Bloody Mama",
+      "year": 1970,
+      "cast": [
+        "Shelley Winters",
+        "Bruce Dern",
+        "Don Stroud"
+      ],
+      "genres": [
+        "Crime"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Boatniks",
+      "year": 1970,
+      "cast": [
+        "Robert Morse",
+        "Stefanie Powers",
+        "Phil Silvers",
+        "Norman Fell",
+        "Don Ameche"
+      ],
+      "genres": [
+        "Comedy"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "The Boys in the Band",
+      "year": 1970,
+      "cast": [
+        "Kenneth Nelson",
+        "Cliff Gorman",
+        "Leonard Frey"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "Brewster McCloud",
+      "year": 1970,
+      "cast": [
+        "Bud Cort",
+        "Sally Kellerman",
+        "Shelley Duvall"
+      ],
+      "genres": [
+        "Fantasy",
+        "Comedy"
+      ]
     },
-
     {
-        "title": "",
-        "genre": "",
-        "release date": "",
-        "rating": ""
+      "title": "A Bullet for Pretty Boy",
+      "year": 1970,
+      "cast": [
+        "Fabian Forte",
+        "Jocelyn Lane",
+        "Adam Roarke"
+      ],
+      "genres": [
+        "Crime",
+        "Action"
+      ]
     }
-
-]
+  ]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <label for="filter">Filter</label>
+        <select id="filter">
+            <option value="acending">Realese date Acending order</option>
+            <option value="decending">Realese date Decending order</option>
+        </select><br>
+    </div>
+    <div>
+    <button id="addBtn">Add Movies</button><br>
+    </div>
+
+    <div class="grid-container"></div>
+
+    <div>
+            <div class="info-form">
+                <h3>ADD MOVIES</h3>
+                <form>
+                    <label for="moviename">Movie Name</label>
+                    <input type="text" id="moviename" name="moviename" placeholder="Enter movie name" required>
+                    
+                    <label for="releasedate">Release Date</label>
+                    <input type="text" id="releasedate" name="releasedate" placeholder="Enter release date" required>
+                    
+                    <label for="cast">Cast</label>
+                    <input type="text" id="cast" name="cast" placeholder="Enter cast names" required>
+                </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

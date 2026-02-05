@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <label for="filter">Filter</label>
-        <select id="filter">
-            <option value="acending">Realese date Acending order</option>
-            <option value="decending">Realese date Decending order</option>
-        </select><br>
-    </div>
-    <div>
-    <button id="addBtn">Add Movies</button><br>
-    </div>
 
-    <div class="grid-container"></div>
+  <div>
+    <label for="filter">Filter</label>
+    <select id="filter">
+      <option value=""></option>
+      <option value=""></option>
+      <option value=""></option>
+    </select>
+  </div>
 
-    <div>
-            <div class="info-form">
-                <h3>ADD MOVIES</h3>
-                <form>
-                    <label for="moviename">Movie Name</label>
-                    <input type="text" id="moviename" name="moviename" placeholder="Enter movie name" required>
-                    
-                    <label for="releasedate">Release Date</label>
-                    <input type="text" id="releasedate" name="releasedate" placeholder="Enter release date" required>
-                    
-                    <label for="cast">Cast</label>
-                    <input type="text" id="cast" name="cast" placeholder="Enter cast names" required>
-                </form>
-    </div>
+  <div>
+    <button id="addBtn">Add Movies</button>
+  </div>
 
+  <div class="grid-container"></div>
 
-    <script src="script.js"></script>
+  <div class="info-form">
+    <h3>ADD MOVIES</h3>
+    <form>
+      <label for="title-input">Movie Name</label>
+      <input type="text" id="title-input" required>
+
+      <label for="year-input">Release Date</label>
+      <input type="number" id="year-input" required>
+
+      <label for="cast-input">Cast</label>
+      <input type="text" id="cast-input" required>
+
+      <label for="img-input">Image URL</label>
+      <input type="text" id="img-input" placeholder="Paste image URL">
+
+      <button type="submit">Add Movie</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="forms.js"></script>
 </body>
 </html>

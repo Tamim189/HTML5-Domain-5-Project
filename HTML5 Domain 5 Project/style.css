@@ -1,66 +1,95 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
+/* MOVIE GRID */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .card {
-background-color: black;
-  border: 1px solid black;
-  margin: 5px;
+  background-color: black;
+  border: 1px solid #222;
   padding: 10px;
-  min-height: 500px;
+  min-height: 500px; 
   background-size: cover;
   background-position: center;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
+.card div{
+    background-color:rgb(175, 9, 9);
+
+}
 
 .movie-title {
   font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
 }
 
-
-
-
+/* FORM CONTAINER */
 .info-form {
-    width: 350px;
-    background: #fff;
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 30px;
 }
 
+/* FORM TITLE */
 .info-form h3 {
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.4rem;
+  text-align: center;
 }
 
-.info-form form label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 500;
-    color: #333;
-    font-size: 0.95rem;
+/* LABELS */
+.info-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+  font-size: 0.9rem;
 }
 
-.info-form form input[type="text"]
-{
-    width: 100%;
-    padding: 10px 12px;
-    margin-bottom: 18px;
-    border: 2px solid #e0e0e0;
-    border-radius: 6px;
-    font-size: 0.95rem;
-    transition: border-color 0.3s;
+/* INPUTS */
+.info-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
 }
 
-.info-form form input[type="text"]:focus
-{
-    outline: none;
-    border-color: #9B59B6;
+.info-form input:focus {
+  outline: none;
+  border-color: #9B59B6;
+}
+
+/* SUBMIT BUTTON */
+.info-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #9B59B6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.info-form button:hover {
+  background-color: #884EA0;
 }

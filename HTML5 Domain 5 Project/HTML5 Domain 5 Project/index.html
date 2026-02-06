@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <scrpit src="./script.js"></scrpit>
+
+  <div class="filter-bar">
+    <input type="text" id="search" placeholder="Search movies...">
+  </div>
+
+
+
+  <div class="grid-container"></div>
+
+  <div class="info-form">
+    <h3>ADD MOVIES</h3>
+    <form>
+      <label for="title-input">Movie Name</label>
+      <input type="text" id="title-input" required>
+
+      <label for="year-input">Release Date</label>
+      <input type="number" id="year-input" required>
+
+      <label for="cast-input">Cast</label>
+      <input type="text" id="cast-input" required>
+
+      <label for="img-input">Image URL</label>
+      <input type="text" id="img-input" placeholder="Paste image URL">
+
+      <button type="submit">Add Movie</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="forms.js"></script>
 </body>
 </html>
